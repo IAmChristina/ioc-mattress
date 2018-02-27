@@ -21,6 +21,20 @@ h1{
   font-size: 4.5rem;
 }
 
+h2{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+h3{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
 .padded{
   padding: 5%;
 }
@@ -40,11 +54,6 @@ h1{
   color: white;
 }
 
-.big-font{
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
 /* ------------- Banner --------------- */
 
 .banner{
@@ -57,7 +66,7 @@ h1{
 }
 
 .banner p{
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 /* --------   Background Images  --------------- */
@@ -123,13 +132,6 @@ blockquote{
 footer{
   background-color: #002633;
   color: white;
-}
-
-footer h2{
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  font-weight: bold;
-  line-height: 1;
 }
 
 form{
