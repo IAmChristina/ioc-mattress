@@ -1,5 +1,24 @@
-.top{
+/* CSS reset */
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+/* Layout, Padding, Margin -- should go next in CSS */
+/* Typography -- should go next in CSS */
+
+.banner{
   background-image: url('../images/gilles-lambert-249996.jpg');
+  background-size: cover;
+  height: 100vh;
+  padding: 200px;
+  text-align: center;
+  background-position: center;
+}
+
+h1{
+  font-size: 60px;
 }
 
 .yellow{
@@ -8,4 +27,24 @@
 
 .white{
   color: white;
+}
+
+.dog{
+  background-image: url('../images/charles-deluvio-351207.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 100px;
+}
+
+.lifetime, .soft{
+  padding: 200px;
+}
+
+.bed{
+  background-image: url('../images/rhema-kallianpur-275251.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 100px;
 }
