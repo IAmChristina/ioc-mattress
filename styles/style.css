@@ -90,7 +90,21 @@ h3{
   background-image: url('../images/joanna-kosinska-129039.jpg');
   /* padding: 50px; */
   text-align: center;
+  background-position: 50% 30%;
   font-size: 20px;
+}
+
+.penguin-image{
+  height: 30vw;
+  background-size: cover;
+  padding: 5%;
+}
+
+.penguin{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+
 }
 
 /*--------- quotation section ----------- */
@@ -151,3 +165,5 @@ input[type="submit"]{
   background-color: #ffbe00;
   color: white;
 }
+
+/*--------------- media queries -------------- */

@@ -1,0 +1,169 @@
+/* --------   CSS reset --------------- */
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+/* ---------- Body styling --------- */
+
+body{
+  font-family: 'Muli', sans-serif;
+  font-size: 12px;
+  margin-bottom: .5rem;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-size: 4.5rem;
+}
+
+h2{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+h3{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.padded{
+  padding: 5%;
+}
+
+
+.padded-10{
+  padding: 10%;
+}
+
+/* ------------- font styling ---------- */
+
+.yellow{
+  color: #ffbe00;
+}
+
+.white{
+  color: white;
+}
+
+/* ------------- Banner --------------- */
+
+.banner{
+  background-image: url('../images/gilles-lambert-249996.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  padding: 5%;
+  text-align: center;
+  background-position: center;
+}
+
+.banner p{
+  font-size: 2rem;
+}
+
+/* --------   Background Images  --------------- */
+
+[class*=bg]{
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+}
+
+.bg-dog{
+  background-image: url('../images/charles-deluvio-351207.jpg');
+}
+
+.bg-bed{
+  background-image: url('../images/rhema-kallianpur-275251.jpg');
+  /* padding: 100px; */
+}
+
+.bg-pencils{
+  background-image: url('../images/joanna-kosinska-129039.jpg');
+  /* padding: 50px; */
+  text-align: center;
+  background-position: 50% 30%;
+  font-size: 20px;
+}
+
+.penguin-image{
+  height: 30vw;
+  background-size: cover;
+  padding: 5%;
+}
+
+.penguin{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+
+}
+
+/*--------- quotation section ----------- */
+
+.quote{
+  margin: 0 auto;
+  max-width: 768px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+blockquote{
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px;
+  font-size: 1.25rem;
+}
+
+.quotation-mark-left{
+  text-align: right;
+  font-size: 3rem;
+  color: gray;
+}
+
+.quotation-mark-right{
+  text-align: left;
+  font-size: 3rem;
+  color: gray;
+}
+
+.customer{
+  color: gray;
+  text-align: right;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+/*----------- footer ------------*/
+
+footer{
+  background-color: #002633;
+  color: white;
+}
+
+form{
+  width:100%;
+  font-family: 'Muli', sans-serif;
+}
+
+input, textarea{
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin: 2px;
+  font-size: 1rem;
+}
+
+input[type="submit"]{
+  background-color: #ffbe00;
+  color: white;
+}
+
+/*--------------- media queries -------------- */

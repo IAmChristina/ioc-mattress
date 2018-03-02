@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <title>{{page.title}}</title>
+  <link rel="stylesheet" href="styles/gridlex.css" type="text/css">
+  <link rel="stylesheet" href="styles/style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,700|Open+Sans:400,700" rel="stylesheet">
+
+</head>
+<body>
+  <section class="grid-middle-center banner">
+    <!-- leaves background image -->
+    <div>
+      <h1><span class="yellow">sleep</span> <span class="white">like a baby</span></h1>
+      <p><span class="white">the ultimate mattress solution</span></p>
+    </div>
+  </section>
+
+{{content}}
+
+  <footer>
+    <div class="grid">
+      <div class="col-6_sm-12-middle padded">
+        <h2>{{page.footer-header}}</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="col-6_sm-12-middle padded">
+      <!-- form: name, email, message, submit button -->
+        <form>
+          <input type="text" name="full-name" placeholder="Your Name">
+          <input type="text" name="email" placeholder="Your Email">
+          <textarea name="comment" rows="10" id="comment" placeholder="Tell us what you want to say..."></textarea>
+          <input type="submit" name="submit" value="SUBMIT">
+        </form>
+      </div>
+    </div>
+  </footer>
+
+</body>
