@@ -79,6 +79,7 @@ h3{
 
 .bg-dog{
   background-image: url('../images/sleeping-dog.jpg');
+  background-position: 0 25%;
 }
 
 .bg-bed{
