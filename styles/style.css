@@ -57,7 +57,7 @@ h3{
 /* ------------- Banner --------------- */
 
 .banner{
-  background-image: url('../images/gilles-lambert-249996.jpg');
+  background-image: url('../images/leaves.jpg');
   background-size: cover;
   min-height: 100vh;
   padding: 5%;
@@ -78,16 +78,16 @@ h3{
 }
 
 .bg-dog{
-  background-image: url('../images/charles-deluvio-351207.jpg');
+  background-image: url('../images/sleeping-dog.jpg');
 }
 
 .bg-bed{
-  background-image: url('../images/rhema-kallianpur-275251.jpg');
+  background-image: url('../images/bed.jpg');
   /* padding: 100px; */
 }
 
 .bg-pencils{
-  background-image: url('../images/joanna-kosinska-129039.jpg');
+  background-image: url('../images/yellow-pencils.jpg');
   /* padding: 50px; */
   text-align: center;
   background-position: 50% 30%;
